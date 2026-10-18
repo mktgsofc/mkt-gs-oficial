@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0d12">
+<meta name="description" content="MKT GS OFICIAL — seu estúdio pessoal para criar vídeos com inteligência artificial.">
+<title>MKT GS OFICIAL 🇧🇷 | Estúdio de Vídeos IA</title>
+<style>
+:root{--bg:#090b10;--panel:#11151e;--panel2:#171c27;--line:#282f3d;--text:#f4f6fb;--muted:#9aa5b7;--gold:#f2c14e;--gold2:#ffdf80;--blue:#7c9cff;--green:#57d6a1;--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#1a2031 0,transparent 42%),var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+button,input,textarea,select{font:inherit}button{cursor:pointer}.wrap{width:min(1120px,100% - 32px);margin:auto}
+header{border-bottom:1px solid #ffffff12;background:#090b10d9;backdrop-filter:blur(14px);position:sticky;top:0;z-index:10}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(145deg,#ffe49a,#c48a1b);color:#16120a;display:grid;place-items:center;font-size:21px;box-shadow:0 6px 25px #f2c14e24}.brand small{display:block;color:var(--muted);font-weight:500;font-size:11px;letter-spacing:1.5px}.pill{border:1px solid #f2c14e55;color:var(--gold2);padding:7px 11px;border-radius:999px;font-size:12px;background:#f2c14e0c}
+.hero{padding:44px 0 25px;display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:center}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:11px;text-transform:uppercase}.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.06;letter-spacing:-1.7px;margin:13px 0}.hero h1 span{color:var(--gold)}.hero p{color:var(--muted);max-width:580px;font-size:16px}.hero-card{min-height:245px;border:1px solid #ffffff15;border-radius:24px;background:linear-gradient(145deg,#202838,#11151e 70%);padding:22px;position:relative;overflow:hidden}.orb{position:absolute;width:210px;height:210px;right:-40px;top:-50px;border-radius:50%;background:radial-gradient(circle,#f2c14e33,transparent 70%)}.hero-art{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.art-tile{height:100px;border-radius:14px;border:1px solid #ffffff15;background:linear-gradient(135deg,#39445a,#161c28);display:flex;align-items:end;padding:12px;font-weight:700;font-size:13px}.art-tile:nth-child(2){background:linear-gradient(135deg,#3b354b,#171923)}.art-tile:nth-child(3){background:linear-gradient(135deg,#31484c,#151c25)}.art-tile:nth-child(4){background:linear-gradient(135deg,#54432d,#1c1a19)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:26px 0 14px}.section-head h2{font-size:22px;margin:0}.section-head p{margin:3px 0 0;color:var(--muted);font-size:13px}
+.studio{display:grid;grid-template-columns:1fr .82fr;gap:18px;align-items:start}.panel{border:1px solid var(--line);background:linear-gradient(180deg,#141923,#10131b);border-radius:var(--radius);padding:20px;min-width:0}.panel h3{margin:0 0 5px;font-size:17px}.sub{color:var(--muted);font-size:13px;margin:0 0 18px}.label{display:block;font-weight:700;font-size:13px;margin:16px 0 8px}.modes{display:grid;grid-template-columns:1fr 1fr;gap:9px}.mode{border:1px solid var(--line);background:#0d1017;color:var(--text);padding:13px;border-radius:13px;text-align:left;display:flex;gap:10px;align-items:center}.mode.active{border-color:var(--gold);background:#f2c14e12;box-shadow:inset 0 0 0 1px #f2c14e22}.mode .ico{font-size:20px}.mode b{display:block;font-size:13px}.mode small{color:var(--muted);font-size:11px}
+.drop{border:1.5px dashed #465064;border-radius:14px;background:#0d1017;min-height:130px;display:grid;place-items:center;text-align:center;padding:17px;position:relative;overflow:hidden}.drop.drag{border-color:var(--gold);background:#f2c14e0d}.drop input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}.drop .big{font-size:27px}.drop strong{display:block;margin:4px}.drop small{color:var(--muted)}.preview-img{max-width:100%;max-height:200px;border-radius:10px;object-fit:contain;display:none;margin:0 auto 8px}
+textarea,input[type=text],select{width:100%;border:1px solid var(--line);background:#0b0e14;color:var(--text);border-radius:12px;padding:12px;outline:none}textarea{resize:vertical;min-height:112px}textarea:focus,input:focus,select:focus{border-color:#b9953f;box-shadow:0 0 0 3px #f2c14e12}.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.hint{color:var(--muted);font-size:11px;margin-top:6px}.primary{width:100%;border:0;border-radius:13px;padding:14px 16px;margin-top:17px;background:linear-gradient(100deg,#f4cf68,#e9ae32);color:#211807;font-weight:850;box-shadow:0 8px 24px #f2c14e18}.primary:active{transform:translateY(1px)}.secondary{border:1px solid var(--line);background:#171c27;color:var(--text);border-radius:10px;padding:10px 12px}.status{font-size:12px;color:var(--muted);margin-top:12px;min-height:18px}.result-box{min-height:250px;border:1px dashed #3a4354;border-radius:14px;background:#0b0e14;display:grid;place-items:center;text-align:center;padding:18px}.result-box video{width:100%;max-height:420px;border-radius:12px;background:#000}.result-box .empty-icon{font-size:35px;margin-bottom:8px}.result-box p{color:var(--muted);font-size:13px;max-width:300px;margin:5px auto}.result-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.note{border:1px solid #f2c14e33;background:#f2c14e0a;color:#e8d8ae;border-radius:12px;padding:12px;font-size:12px;margin-top:15px}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 38px}.feature{padding:17px;border:1px solid var(--line);border-radius:15px;background:#11151e}.feature .ficon{font-size:22px}.feature b{display:block;margin:7px 0 3px}.feature p{margin:0;color:var(--muted);font-size:12px}footer{border-top:1px solid #ffffff12;padding:24px 0 36px;color:var(--muted);font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:30px}.hero-card{min-height:190px}.studio{grid-template-columns:1fr}.features{grid-template-columns:1fr}.nav{height:64px}.pill{font-size:10px}.hero h1{font-size:39px}.wrap{width:min(100% - 22px,1120px)}.panel{padding:16px}}
+@media(max-width:390px){.brand{font-size:13px}.logo{width:37px;height:37px}.modes{grid-template-columns:1fr}.row2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><div class="brand"><div class="logo">▶</div><div>MKT GS OFICIAL 🇧🇷<small>AI VIDEO STUDIO</small></div></div><div class="pill">✦ ESTÚDIO PESSOAL</div></div></header>
+<main class="wrap">
+<section class="hero">
+<div><div class="eyebrow">Seu estúdio criativo com IA</div><h1>Transforme ideias em <span>vídeos incríveis.</span></h1><p>Prepare fotos, escreva sua ideia e organize suas criações para TikTok, Reels e Shorts em um só lugar.</p></div>
+<div class="hero-card"><div class="orb"></div><div class="eyebrow">CRIE • ANIME • INSPIRE</div><h2 style="position:relative;margin:8px 0 0;font-size:24px">Sua próxima criação começa aqui.</h2><div class="hero-art"><div class="art-tile">🎞️ Cinematográfico</div><div class="art-tile">✨ Animação IA</div><div class="art-tile">🌅 Luz & atmosfera</div><div class="art-tile">📱 Vertical 9:16</div></div></div>
+</section>
+<div class="section-head"><div><h2>Estúdio de criação</h2><p>Configure seu vídeo abaixo.</p></div><span class="pill">VERSÃO INICIAL</span></div>
+<section class="studio">
+<div class="panel">
+<h3>1. Escolha como começar</h3><p class="sub">Selecione o tipo de criação.</p>
+<div class="modes">
+<button class="mode active" data-mode="image" type="button"><span class="ico">🖼️</span><span><b>Foto para vídeo</b><small>Anime uma imagem</small></span></button>
+<button class="mode" data-mode="text" type="button"><span class="ico">✍️</span><span><b>Texto para vídeo</b><small>Crie a partir de uma ideia</small></span></button>
+</div>
+<div id="uploadSection"><label class="label" for="imageInput">2. Envie sua foto</label><div class="drop" id="drop"><input id="imageInput" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Enviar foto"><div id="dropContent"><div class="big">⬆️</div><strong>Toque para escolher uma imagem</strong><small>JPG, PNG ou WEBP • até 10 MB recomendado</small></div></div><div class="hint">Use apenas imagens que você tem permissão para usar.</div></div>
+<label class="label" for="prompt">3. Descreva o vídeo que deseja</label><textarea id="prompt" placeholder="Ex.: Anime esta foto com movimento suave de câmera, chuva leve e pôr do sol cinematográfico. Preserve os detalhes e mantenha aparência realista."></textarea>
+<div class="row2"><div><label class="label" for="ratio">Formato</label><select id="ratio"><option value="9:16">Vertical 9:16 — TikTok</option><option value="16:9">Horizontal 16:9</option><option value="1:1">Quadrado 1:1</option><option value="3:4">Retrato 3:4</option></select></div><div><label class="label" for="style">Estilo visual</label><select id="style"><option>Cinematográfico realista</option><option>Anime</option><option>Fantasia</option><option>Publicidade de produto</option><option>Natureza e paisagem</option><option>Movimento suave</option></select></div></div>
+<label class="label" for="motion">Movimento desejado</label><select id="motion"><option>Movimento de câmera suave</option><option>Pessoa em movimento natural</option><option>Zoom cinematográfico</option><option>Vento e movimento ambiental</option><option>Chuva e reflexos molhados</option><option>Movimento dinâmico</option></select>
+<button class="primary" id="generateBtn" type="button">✦ Preparar meu vídeo</button>
+<div class="status" id="status" role="status">Pronto para configurar sua criação.</div>
+<div class="note"><b>Transparência:</b> esta versão ainda não está conectada a um motor de geração de vídeo. O botão prepara e valida sua solicitação; não simula uma geração real.</div>
+</div>
+<div class="panel">
+<h3>Prévia e resultado</h3><p class="sub">Veja a foto selecionada ou o vídeo quando conectar uma API.</p>
+<div class="result-box" id="resultBox"><div><div class="empty-icon">🎬</div><b>Sua prévia aparecerá aqui</b><p>Escolha uma foto ou escreva uma ideia para começar.</p></div></div>
+<div class="result-actions"><button class="secondary" id="downloadPrompt" type="button">⇩ Baixar briefing (.txt)</button><button class="secondary" id="clearBtn" type="button">Limpar projeto</button></div>
+<div class="note" style="margin-top:18px"><b>Próximo passo:</b> conectar uma API de vídeo IA segura no servidor. Não cole chaves secretas neste arquivo ou em um repositório público.</div>
+</div>
+</section>
+<div class="section-head"><div><h2>Ferramentas do estúdio</h2><p>Recursos previstos para o seu fluxo de criação.</p></div></div>
+<section class="features">
+<div class="feature"><div class="ficon">🧑‍🎤</div><b>Animação de pessoas</b><p>Depende do modelo conectado e de suas regras para retratos e movimentos.</p></div>
+<div class="feature"><div class="ficon">🌧️</div><b>Efeitos cinematográficos</b><p>Descreva iluminação, chuva, reflexos, pôr do sol e atmosfera na solicitação.</p></div>
+<div class="feature"><div class="ficon">📲</div><b>Pronto para redes sociais</b><p>Escolha a proporção vertical para planejar vídeos para TikTok e Reels.</p></div>
+</section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> MKT GS OFICIAL 🇧🇷</span><span>Projeto pessoal • Feito para começar gratuitamente</span></div></footer>
+<script>
+const $ = s => document.querySelector(s);
+let mode='image', selectedFile=null, previewUrl=null;
+$('#year').textContent = new Date().getFullYear();
+document.querySelectorAll('.mode').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('.mode').forEach(b=>b.classList.remove('active'));btn.classList.add('active');mode=btn.dataset.mode;
+  $('#uploadSection').style.display=mode==='image'?'block':'none';
+  $('#prompt').placeholder=mode==='image'?'Ex.: Anime esta foto com movimento suave de câmera, chuva leve e pôr do sol cinematográfico.':'Ex.: Um carro esportivo atravessando uma estrada molhada ao pôr do sol, câmera cinematográfica e reflexos realistas.';
+  $('#status').textContent=mode==='image'?'Modo foto para vídeo selecionado.':'Modo texto para vídeo selecionado.';
+}));
+function setFile(file){
+  if(!file)return;
+  if(!file.type.startsWith('image/')){ $('#status').textContent='Escolha um arquivo de imagem válido.'; return; }
+  if(file.size>10*1024*1024){ $('#status').textContent='A imagem ultrapassa 10 MB. Escolha uma imagem menor.'; return; }
+  selectedFile=file;
+  if(previewUrl)URL.revokeObjectURL(previewUrl);
+  previewUrl=URL.createObjectURL(file);
+  $('#dropContent').innerHTML='<img class="preview-img" id="uploadPreview" alt="Prévia da imagem" src="'+previewUrl+'" style="display:block"><strong>'+escapeHtml(file.name)+'</strong><small>Toque na área para trocar a imagem</small>';
+  $('#resultBox').innerHTML='<div><img src="'+previewUrl+'" alt="Prévia da foto selecionada" style="max-width:100%;max-height:340px;border-radius:10px;object-fit:contain"><p>Foto selecionada. A animação será possível após conectar uma API compatível.</p></div>';
+  $('#status').textContent='Foto selecionada com sucesso.';
+}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+$('#imageInput').addEventListener('change',e=>setFile(e.target.files[0]));
+const drop=$('#drop');
+drop.addEventListener('dragover',e=>{e.preventDefault();drop.classList.add('drag')});
+drop.addEventListener('dragleave',()=>drop.classList.remove('drag'));
+drop.addEventListener('drop',e=>{e.preventDefault();drop.classList.remove('drag');setFile(e.dataTransfer.files[0])});
+$('#generateBtn').addEventListener('click',()=>{
+  const prompt=$('#prompt').value.trim();
+  if(!prompt){$('#status').textContent='Escreva uma descrição para seu vídeo antes de continuar.';$('#prompt').focus();return;}
+  if(mode==='image'&&!selectedFile){$('#status').textContent='Envie uma foto para usar o modo foto para vídeo.';return;}
+  const brief=buildBrief();
+  $('#resultBox').innerHTML='<div style="width:100%;text-align:left"><div class="pill">BRIEFING PREPARADO</div><h3 style="margin:12px 0 6px">Sua solicitação está pronta</h3><p style="white-space:pre-wrap;overflow-wrap:anywhere">'+escapeHtml(brief)+'</p><p>Para gerar o arquivo de vídeo, conecte este formulário a um serviço de vídeo IA por meio de um servidor seguro.</p></div>';
+  $('#status').textContent='Briefing preparado. Nenhum vídeo foi gerado ainda: falta conectar a API.';
+});
+function buildBrief(){
+ return 'MKT GS OFICIAL — BRIEFING DE VÍDEO IA\\n\\nTipo: '+(mode==='image'?'Foto para vídeo':'Texto para vídeo')+'\\nArquivo de imagem: '+(selectedFile?selectedFile.name:'Nenhum')+'\\nDescrição: '+$('#prompt').value.trim()+'\\nFormato: '+$('#ratio').value+'\\nEstilo: '+$('#style').value+'\\nMovimento: '+$('#motion').value+'\\n';
+}
+$('#downloadPrompt').addEventListener('click',()=>{
+ const blob=new Blob([buildBrief()],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=url;a.download='briefing-mkt-gs-oficial.txt';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
+});
+$('#clearBtn').addEventListener('click',()=>{
+ selectedFile=null;if(previewUrl)URL.revokeObjectURL(previewUrl);previewUrl=null;$('#imageInput').value='';$('#prompt').value='';
+ $('#dropContent').innerHTML='<div class="big">⬆️</div><strong>Toque para escolher uma imagem</strong><small>JPG, PNG ou WEBP • até 10 MB recomendado</small>';
+ $('#resultBox').innerHTML='<div><div class="empty-icon">🎬</div><b>Sua prévia aparecerá aqui</b><p>Escolha uma foto ou escreva uma ideia para começar.</p></div>';
+ $('#status').textContent='Projeto limpo. Pronto para começar de novo.';
+});
+</script>
+</body>
+</html>
